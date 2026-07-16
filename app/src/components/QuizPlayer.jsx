@@ -407,8 +407,8 @@ export default function QuizPlayer() {
       </AnimatePresence>
 
       {/* Play Controls Footer */}
-      <div className="flex items-center justify-between">
-        <div className="text-xs text-slate-400 dark:text-slate-500 font-bold flex flex-col">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-6">
+        <div className="hidden sm:flex text-xs text-slate-400 dark:text-slate-500 font-bold flex-col">
           <span>💡 Protip: Use A, B, C, D on your keyboard</span>
           {isAnswered && <span>Press SPACE / ENTER to go next</span>}
         </div>
@@ -416,7 +416,7 @@ export default function QuizPlayer() {
         <button
           onClick={handleNext}
           disabled={!isAnswered}
-          className={`px-6 py-3.5 rounded-xl font-bold text-sm flex items-center gap-2 cursor-pointer transition-all duration-200 shadow-md ${
+          className={`w-full sm:w-auto px-6 py-3.5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 cursor-pointer transition-all duration-200 shadow-md ${
             isAnswered
               ? 'bg-gradient-to-r from-primary-600 to-indigo-600 hover:from-primary-500 hover:to-indigo-500 text-white active:scale-95 shadow-primary-500/20'
               : 'bg-slate-200 dark:bg-slate-800 text-slate-400 dark:text-slate-600 cursor-not-allowed'

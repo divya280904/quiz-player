@@ -5,8 +5,13 @@
 @tailwind utilities;
 
 @layer base {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   body {
-    @apply bg-slate-50 text-slate-800 transition-colors duration-300 font-sans min-h-screen overflow-x-hidden;
+    @apply bg-slate-50 text-slate-800 transition-colors duration-300 font-sans min-h-screen;
   }
   
   html.dark body {

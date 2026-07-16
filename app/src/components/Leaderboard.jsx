@@ -76,10 +76,10 @@ export default function Leaderboard({ quizId, refreshTrigger }) {
             <table className="w-full border-collapse text-left text-sm">
               <thead className="sticky top-0 bg-slate-100 dark:bg-slate-900 border-b border-slate-200/50 dark:border-slate-800/50 text-slate-500 dark:text-slate-400 font-bold text-xs uppercase">
                 <tr>
-                  <th className="px-4 py-3 text-center">Rank</th>
-                  <th className="px-4 py-3">Player</th>
-                  <th className="px-4 py-3 text-right">Score</th>
-                  <th className="px-4 py-3 text-right">Accuracy</th>
+                  <th className="px-2 sm:px-4 py-3 text-center">Rank</th>
+                  <th className="px-2 sm:px-4 py-3">Player</th>
+                  <th className="px-2 sm:px-4 py-3 text-right">Score</th>
+                  <th className="px-2 sm:px-4 py-3 text-right">Accuracy</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100 dark:divide-slate-800/60 font-semibold text-slate-700 dark:text-slate-300">
@@ -104,25 +104,25 @@ export default function Leaderboard({ quizId, refreshTrigger }) {
                       key={row.id || idx}
                       className={`hover:bg-slate-50/50 dark:hover:bg-slate-800/20 transition-colors ${rowBg}`}
                     >
-                      <td className="px-4 py-3.5 text-center font-extrabold text-base">
+                      <td className="px-2 sm:px-4 py-3 text-center font-extrabold text-base">
                         {rankBadge}
                       </td>
-                      <td className="px-4 py-3.5">
+                      <td className="px-2 sm:px-4 py-3">
                         <div className="flex flex-col">
-                          <span className="font-bold text-slate-800 dark:text-white truncate max-w-[140px] md:max-w-xs">
+                          <span className="font-bold text-slate-800 dark:text-white truncate max-w-[100px] xs:max-w-[140px] md:max-w-xs">
                             {row.name}
                           </span>
-                          <span className="text-[10px] text-slate-400 flex items-center gap-1 font-medium mt-0.5">
+                          <span className="text-[9px] sm:text-[10px] text-slate-400 flex items-center gap-1 font-medium mt-0.5">
                             <Calendar className="w-3 h-3" />
                             {formatDate(row.completedAt)}
                           </span>
                         </div>
                       </td>
-                      <td className="px-4 py-3.5 text-right font-extrabold text-slate-800 dark:text-white">
+                      <td className="px-2 sm:px-4 py-3 text-right font-extrabold text-slate-800 dark:text-white">
                         {row.score}
                       </td>
-                      <td className="px-4 py-3.5 text-right text-xs">
-                        <span className="px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 font-bold border border-slate-200/50 dark:border-slate-800/50">
+                      <td className="px-2 sm:px-4 py-3 text-right text-xs">
+                        <span className="px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 font-bold border border-slate-200/50 dark:border-slate-800/50">
                           {row.percentage}%
                         </span>
                       </td>

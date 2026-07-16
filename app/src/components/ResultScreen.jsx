@@ -103,12 +103,12 @@ export default function ResultScreen() {
   if (!location.state) return null;
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8 flex-grow w-full relative z-10">
+    <main className="max-w-4xl mx-auto px-4 py-8 flex-grow w-full relative z-10 overflow-hidden">
       {/* Decorative radial glows */}
       <div className="absolute top-10 left-1/4 w-[350px] h-[350px] rounded-full radial-glow-1 -z-10 pointer-events-none" />
 
       {/* Main Results Header Card */}
-      <div className="glass-card rounded-3xl p-8 mb-8 border border-slate-200/50 dark:border-slate-800/50 flex flex-col md:flex-row items-center gap-8 md:gap-12 relative overflow-hidden">
+      <div className="glass-card rounded-3xl p-6 md:p-8 mb-8 border border-slate-200/50 dark:border-slate-800/50 flex flex-col md:flex-row items-center gap-8 md:gap-12 relative overflow-hidden">
         {/* Score Ring */}
         <div className="relative w-40 h-40 flex items-center justify-center flex-shrink-0">
           <svg className="w-full h-full -rotate-90">
@@ -170,7 +170,7 @@ export default function ResultScreen() {
         <div className="space-y-6">
           {/* Stats overview cards */}
           <div className="grid grid-cols-3 gap-3">
-            <div className="glass-card rounded-2xl p-4 text-center border border-slate-200/50 dark:border-slate-800/50">
+            <div className="glass-card rounded-2xl p-3 md:p-4 text-center border border-slate-200/50 dark:border-slate-800/50">
               <span className="block text-2xl font-black text-slate-800 dark:text-white mb-0.5">
                 {score}
               </span>
@@ -178,7 +178,7 @@ export default function ResultScreen() {
                 Score
               </span>
             </div>
-            <div className="glass-card rounded-2xl p-4 text-center border border-emerald-200/40 dark:border-emerald-950/20 bg-emerald-50/20 dark:bg-emerald-950/5">
+            <div className="glass-card rounded-2xl p-3 md:p-4 text-center border border-emerald-200/40 dark:border-emerald-950/20 bg-emerald-50/20 dark:bg-emerald-950/5">
               <span className="block text-2xl font-black text-emerald-600 dark:text-emerald-400 mb-0.5">
                 {correctCount}
               </span>
@@ -186,7 +186,7 @@ export default function ResultScreen() {
                 Correct
               </span>
             </div>
-            <div className="glass-card rounded-2xl p-4 text-center border border-rose-200/40 dark:border-rose-950/20 bg-rose-50/20 dark:bg-rose-950/5">
+            <div className="glass-card rounded-2xl p-3 md:p-4 text-center border border-rose-200/40 dark:border-rose-950/20 bg-rose-50/20 dark:bg-rose-950/5">
               <span className="block text-2xl font-black text-rose-600 dark:text-rose-400 mb-0.5">
                 {wrongCount}
               </span>
@@ -197,7 +197,7 @@ export default function ResultScreen() {
           </div>
 
           {/* Submit Score to Leaderboard Card */}
-          <div className="glass-card rounded-2xl p-6 border border-slate-200/50 dark:border-slate-800/50">
+          <div className="glass-card rounded-2xl p-5 md:p-6 border border-slate-200/50 dark:border-slate-800/50">
             <h4 className="text-base font-extrabold text-slate-800 dark:text-white flex items-center gap-1.5 mb-4">
               <Award className="w-5 h-5 text-indigo-500" />
               Publish Score to Leaderboard
