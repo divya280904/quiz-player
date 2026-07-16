@@ -1,0 +1,464 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_1",
+      "title": "General Knowledge",
+      "description": "Test your overall awareness with standard general knowledge questions.",
+      "thumbnail": "/images/quiz_1.jpg",
+      "category": "General Knowledge",
+      "difficulty": "Easy",
+      "timePerQuestion": 15,
+      "totalQuestions": 10,
+      "questions": [
+        {
+          "id": "quiz_1_q1",
+          "question": "Capital of India?",
+          "options": [ "Delhi", "Mumbai", "Pune", "Jaipur" ],
+          "correctAnswer": "Delhi",
+          "points": 10,
+          "explanation": "Delhi is the capital of India."
+        },
+        {
+          "id": "quiz_1_q2",
+          "question": "Largest planet?",
+          "options": [ "Earth", "Mars", "Jupiter", "Venus" ],
+          "correctAnswer": "Jupiter",
+          "points": 10,
+          "explanation": "Jupiter is the largest planet in our solar system."
+        },
+        {
+          "id": "quiz_1_q3",
+          "question": "Fastest land animal?",
+          "options": [ "Tiger", "Leopard", "Cheetah", "Lion" ],
+          "correctAnswer": "Cheetah",
+          "points": 10,
+          "explanation": "Cheetah is the fastest land animal, reaching speeds of over 100 km/h."
+        },
+        {
+          "id": "quiz_1_q4",
+          "question": "Largest ocean?",
+          "options": [ "Atlantic", "Indian", "Pacific", "Arctic" ],
+          "correctAnswer": "Pacific",
+          "points": 10,
+          "explanation": "Pacific is the largest and deepest ocean on Earth."
+        },
+        {
+          "id": "quiz_1_q5",
+          "question": "Currency of Japan?",
+          "options": [ "Yen", "Won", "Dollar", "Euro" ],
+          "correctAnswer": "Yen",
+          "points": 10,
+          "explanation": "Japan uses the Yen as its currency."
+        },
+        {
+          "id": "quiz_1_q6",
+          "question": "Mount Everest is in?",
+          "options": [ "India", "Nepal", "China", "Bhutan" ],
+          "correctAnswer": "Nepal",
+          "points": 10,
+          "explanation": "Mount Everest lies on the border between Nepal and China (Tibet)."
+        },
+        {
+          "id": "quiz_1_q7",
+          "question": "How many continents?",
+          "options": [ "5", "6", "7", "8" ],
+          "correctAnswer": "7",
+          "points": 10,
+          "explanation": "There are seven continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia."
+        },
+        {
+          "id": "quiz_1_q8",
+          "question": "H2O is?",
+          "options": [ "Salt", "Water", "Oxygen", "Hydrogen" ],
+          "correctAnswer": "Water",
+          "points": 10,
+          "explanation": "H2O is the chemical formula for water."
+        },
+        {
+          "id": "quiz_1_q9",
+          "question": "National animal of India?",
+          "options": [ "Tiger", "Lion", "Elephant", "Peacock" ],
+          "correctAnswer": "Tiger",
+          "points": 10,
+          "explanation": "The Royal Bengal Tiger is the national animal of India."
+        },
+        {
+          "id": "quiz_1_q10",
+          "question": "Sun rises in?",
+          "options": [ "North", "South", "East", "West" ],
+          "correctAnswer": "East",
+          "points": 10,
+          "explanation": "Earth rotates from west to east, so the Sun appears to rise in the East."
+        }
+      ]
+    },
+    {
+      "id": "quiz_2",
+      "title": "React.js Basics",
+      "description": "Test your fundamentals on React components, hooks, virtual DOM, and properties.",
+      "thumbnail": "/images/quiz_2.jpg",
+      "category": "Programming",
+      "difficulty": "Medium",
+      "timePerQuestion": 20,
+      "totalQuestions": 10,
+      "questions": [
+        {
+          "id": "quiz_2_q1",
+          "question": "React is maintained by?",
+          "options": [ "Google", "Meta", "Microsoft", "Amazon" ],
+          "correctAnswer": "Meta",
+          "points": 10,
+          "explanation": "Meta (formerly Facebook) maintains React."
+        },
+        {
+          "id": "quiz_2_q2",
+          "question": "Hook for state?",
+          "options": [ "useRef", "useState", "useMemo", "useEffect" ],
+          "correctAnswer": "useState",
+          "points": 10,
+          "explanation": "useState manages local state inside functional components."
+        },
+        {
+          "id": "quiz_2_q3",
+          "question": "JSX stands for?",
+          "options": [ "Java XML", "JavaScript XML", "JSON XML", "Java Syntax XML" ],
+          "correctAnswer": "JavaScript XML",
+          "points": 10,
+          "explanation": "JSX means JavaScript XML; it lets us write HTML-like syntax inside JavaScript."
+        },
+        {
+          "id": "quiz_2_q4",
+          "question": "Default React file extension?",
+          "options": [ ".jsx", ".java", ".ts", ".vue" ],
+          "correctAnswer": ".jsx",
+          "points": 10,
+          "explanation": "JSX is the standard extension for files containing React markup."
+        },
+        {
+          "id": "quiz_2_q5",
+          "question": "Navigation library?",
+          "options": [ "React Router", "Express", "Redux", "Axios" ],
+          "correctAnswer": "React Router",
+          "points": 10,
+          "explanation": "React Router is the standard navigation and routing library for React."
+        },
+        {
+          "id": "quiz_2_q6",
+          "question": "Virtual DOM purpose?",
+          "options": [ "Styling", "Performance", "Database", "Hosting" ],
+          "correctAnswer": "Performance",
+          "points": 10,
+          "explanation": "It optimizes rendering by updating only elements that changed in DOM."
+        },
+        {
+          "id": "quiz_2_q7",
+          "question": "State should be?",
+          "options": [ "Mutated", "Immutable", "Deleted", "Global" ],
+          "correctAnswer": "Immutable",
+          "points": 10,
+          "explanation": "Treat state as immutable; use setter functions to trigger re-renders."
+        },
+        {
+          "id": "quiz_2_q8",
+          "question": "Hook for side effects?",
+          "options": [ "useEffect", "useRef", "useState", "useId" ],
+          "correctAnswer": "useEffect",
+          "points": 10,
+          "explanation": "useEffect runs side effects (fetching data, listening to events) in functional components."
+        },
+        {
+          "id": "quiz_2_q9",
+          "question": "Props are?",
+          "options": [ "Mutable", "Read-only", "Database", "CSS" ],
+          "correctAnswer": "Read-only",
+          "points": 10,
+          "explanation": "Props are read-only and passed down from parent to child."
+        },
+        {
+          "id": "quiz_2_q10",
+          "question": "Build tool?",
+          "options": [ "Vite", "MySQL", "Firebase", "Docker" ],
+          "correctAnswer": "Vite",
+          "points": 10,
+          "explanation": "Vite is a modern frontend build tool and dev server."
+        }
+      ]
+    },
+    {
+      "id": "quiz_3",
+      "title": "Movies & Entertainment",
+      "description": "Show off your cinema and pop-culture trivia knowledge.",
+      "thumbnail": "/images/quiz_3.jpg",
+      "category": "Entertainment",
+      "difficulty": "Easy",
+      "timePerQuestion": 15,
+      "totalQuestions": 10,
+      "questions": [
+        {
+          "id": "quiz_3_q1",
+          "question": "Iron Man belongs to?",
+          "options": [ "DC", "Marvel", "Pixar", "Sony" ],
+          "correctAnswer": "Marvel",
+          "points": 10,
+          "explanation": "Iron Man is a prominent character in Marvel Comics and the MCU."
+        },
+        {
+          "id": "quiz_3_q2",
+          "question": "Avatar director?",
+          "options": [ "James Cameron", "Nolan", "Spielberg", "Scott" ],
+          "correctAnswer": "James Cameron",
+          "points": 10,
+          "explanation": "James Cameron directed the groundbreaking sci-fi film Avatar."
+        },
+        {
+          "id": "quiz_3_q3",
+          "question": "Harry Potter author?",
+          "options": [ "Rowling", "Tolkien", "Lewis", "Martin" ],
+          "correctAnswer": "Rowling",
+          "points": 10,
+          "explanation": "J.K. Rowling is the creator of the Harry Potter book series."
+        },
+        {
+          "id": "quiz_3_q4",
+          "question": "Sherlock Holmes creator?",
+          "options": [ "Conan Doyle", "Agatha", "Dickens", "Twain" ],
+          "correctAnswer": "Conan Doyle",
+          "points": 10,
+          "explanation": "Sir Arthur Conan Doyle created the famous detective Sherlock Holmes."
+        },
+        {
+          "id": "quiz_3_q5",
+          "question": "Oscar awards are for?",
+          "options": [ "Sports", "Movies", "Music", "Science" ],
+          "correctAnswer": "Movies",
+          "points": 10,
+          "explanation": "Academy Awards (Oscars) recognize achievements in the movie industry."
+        },
+        {
+          "id": "quiz_3_q6",
+          "question": "Elsa appears in?",
+          "options": [ "Moana", "Frozen", "Coco", "Brave" ],
+          "correctAnswer": "Frozen",
+          "points": 10,
+          "explanation": "Elsa is a main character in Disney's Frozen franchise."
+        },
+        {
+          "id": "quiz_3_q7",
+          "question": "Batman city?",
+          "options": [ "Metropolis", "Gotham", "Central", "Star" ],
+          "correctAnswer": "Gotham",
+          "points": 10,
+          "explanation": "Batman protects the fictional Gotham City."
+        },
+        {
+          "id": "quiz_3_q8",
+          "question": "Hogwarts teaches?",
+          "options": [ "Cooking", "Magic", "Science", "History" ],
+          "correctAnswer": "Magic",
+          "points": 10,
+          "explanation": "Hogwarts is a school of witchcraft and wizardry."
+        },
+        {
+          "id": "quiz_3_q9",
+          "question": "Minions first appeared in?",
+          "options": [ "Cars", "Despicable Me", "Up", "Shrek" ],
+          "correctAnswer": "Despicable Me",
+          "points": 10,
+          "explanation": "Minions debuted in the 2010 animated film Despicable Me."
+        },
+        {
+          "id": "quiz_3_q10",
+          "question": "Joker is villain of?",
+          "options": [ "Spider-Man", "Batman", "Iron Man", "Thor" ],
+          "correctAnswer": "Batman",
+          "points": 10,
+          "explanation": "The Joker is Batman's archenemy."
+        }
+      ]
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science",
+      "description": "Challenge yourself with questions covering chemistry, physics, biology, and space.",
+      "thumbnail": "/images/quiz_4.jpg",
+      "category": "Science",
+      "difficulty": "Hard",
+      "timePerQuestion": 25,
+      "totalQuestions": 10,
+      "questions": [
+        {
+          "id": "quiz_4_q1",
+          "question": "Symbol of Gold?",
+          "options": [ "Go", "Au", "Ag", "Gd" ],
+          "correctAnswer": "Au",
+          "points": 10,
+          "explanation": "Au (from Latin aurum) is the chemical symbol for Gold."
+        },
+        {
+          "id": "quiz_4_q2",
+          "question": "Nearest star?",
+          "options": [ "Sirius", "Sun", "Polaris", "Alpha" ],
+          "correctAnswer": "Sun",
+          "points": 10,
+          "explanation": "The Sun is the closest star to the Earth."
+        },
+        {
+          "id": "quiz_4_q3",
+          "question": "Human heart chambers?",
+          "options": [ "2", "3", "4", "5" ],
+          "correctAnswer": "4",
+          "points": 10,
+          "explanation": "The human heart has 4 chambers: two atria and two ventricles."
+        },
+        {
+          "id": "quiz_4_q4",
+          "question": "Gas plants absorb?",
+          "options": [ "Oxygen", "Nitrogen", "CO2", "Hydrogen" ],
+          "correctAnswer": "CO2",
+          "points": 10,
+          "explanation": "Plants absorb carbon dioxide (CO2) during photosynthesis."
+        },
+        {
+          "id": "quiz_4_q5",
+          "question": "Speed of light unit?",
+          "options": [ "km/h", "m/s", "mph", "fps" ],
+          "correctAnswer": "m/s",
+          "points": 10,
+          "explanation": "The speed of light is measured in meters per second (m/s), approx. 3 x 10^8 m/s."
+        },
+        {
+          "id": "quiz_4_q6",
+          "question": "DNA full form starts with?",
+          "options": [ "Dynamic", "Deoxyribo", "Digital", "Dual" ],
+          "correctAnswer": "Deoxyribo",
+          "points": 10,
+          "explanation": "DNA stands for Deoxyribonucleic Acid."
+        },
+        {
+          "id": "quiz_4_q7",
+          "question": "Boiling point water?",
+          "options": [ "50°C", "100°C", "120°C", "90°C" ],
+          "correctAnswer": "100°C",
+          "points": 10,
+          "explanation": "At sea level, water boils at 100 degrees Celsius (100°C)."
+        },
+        {
+          "id": "quiz_4_q8",
+          "question": "Planet known as Red Planet?",
+          "options": [ "Mars", "Venus", "Mercury", "Saturn" ],
+          "correctAnswer": "Mars",
+          "points": 10,
+          "explanation": "Mars is called the Red Planet due to iron oxide (rust) on its surface."
+        },
+        {
+          "id": "quiz_4_q9",
+          "question": "Largest organ?",
+          "options": [ "Heart", "Skin", "Liver", "Brain" ],
+          "correctAnswer": "Skin",
+          "points": 10,
+          "explanation": "The skin is the largest organ of the human body."
+        },
+        {
+          "id": "quiz_4_q10",
+          "question": "Electric current unit?",
+          "options": [ "Volt", "Watt", "Ampere", "Ohm" ],
+          "correctAnswer": "Ampere",
+          "points": 10,
+          "explanation": "Ampere (A) is the SI unit of electric current."
+        }
+      ]
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports",
+      "description": "Test your memory and statistics across popular global sports.",
+      "thumbnail": "/images/quiz_5.jpg",
+      "category": "Sports",
+      "difficulty": "Medium",
+      "timePerQuestion": 15,
+      "totalQuestions": 10,
+      "questions": [
+        {
+          "id": "quiz_5_q1",
+          "question": "Players in football team?",
+          "options": [ "9", "10", "11", "12" ],
+          "correctAnswer": "11",
+          "points": 10,
+          "explanation": "A standard football match consists of 11 players per team on the pitch."
+        },
+        {
+          "id": "quiz_5_q2",
+          "question": "Olympics every?",
+          "options": [ "2", "3", "4", "5" ],
+          "correctAnswer": "4",
+          "points": 10,
+          "explanation": "The Olympic Games are held every 4 years."
+        },
+        {
+          "id": "quiz_5_q3",
+          "question": "Cricket bat made of?",
+          "options": [ "Oak", "Willow", "Pine", "Teak" ],
+          "correctAnswer": "Willow",
+          "points": 10,
+          "explanation": "Professional cricket bats are made from English willow wood."
+        },
+        {
+          "id": "quiz_5_q4",
+          "question": "NBA sport?",
+          "options": [ "Football", "Basketball", "Baseball", "Hockey" ],
+          "correctAnswer": "Basketball",
+          "points": 10,
+          "explanation": "NBA stands for National Basketball Association."
+        },
+        {
+          "id": "quiz_5_q5",
+          "question": "Tennis Grand Slam in UK?",
+          "options": [ "US Open", "French", "Wimbledon", "Australian" ],
+          "correctAnswer": "Wimbledon",
+          "points": 10,
+          "explanation": "Wimbledon is the prestigious Grand Slam tournament held in London, UK."
+        },
+        {
+          "id": "quiz_5_q6",
+          "question": "Chess pieces each side?",
+          "options": [ "14", "15", "16", "17" ],
+          "correctAnswer": "16",
+          "points": 10,
+          "explanation": "Each player starts a chess game with 16 pieces."
+        },
+        {
+          "id": "quiz_5_q7",
+          "question": "Badminton shuttle called?",
+          "options": [ "Birdie", "Ball", "Puck", "Disc" ],
+          "correctAnswer": "Birdie",
+          "points": 10,
+          "explanation": "The badminton shuttlecock is commonly referred to as a birdie."
+        },
+        {
+          "id": "quiz_5_q8",
+          "question": "Kabaddi players/team?",
+          "options": [ "5", "6", "7", "8" ],
+          "correctAnswer": "7",
+          "points": 10,
+          "explanation": "There are 7 active players on the court for each team in Kabaddi."
+        },
+        {
+          "id": "quiz_5_q9",
+          "question": "FIFA World Cup sport?",
+          "options": [ "Cricket", "Football", "Rugby", "Tennis" ],
+          "correctAnswer": "Football",
+          "points": 10,
+          "explanation": "FIFA organizes the football (soccer) World Cup."
+        },
+        {
+          "id": "quiz_5_q10",
+          "question": "Highest runs format?",
+          "options": [ "Test", "ODI", "T20", "All" ],
+          "correctAnswer": "Test",
+          "points": 10,
+          "explanation": "Test cricket is the longest format where teams play over 5 days, resulting in the highest number of runs."
+        }
+      ]
+    }
+  ]
+}
